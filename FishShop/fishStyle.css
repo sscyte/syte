@@ -1,0 +1,73 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body {
+    background-color: aliceblue;
+    background-image: url('/FishShop/fsImages/anchor.png');
+    background-size:10vh;
+    background-repeat: repeat;
+}
+.container {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #6A8D92;
+    padding:2vh;
+    border-radius:5vh;
+}
+.topContainer {
+    display: flex;
+    align-items: center;
+}
+.anchor {
+    margin:2vh;
+}
+
+.bottomContainer{
+    width: 100%;
+    display:flex;
+    justify-content:space-around;
+    padding:2vh;
+}
+.anchor {
+    width:4vh;
+}
+.postContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.else {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width:70vh;
+    background-color: #4B4E6D;
+    border-radius: 5vh;
+}
+.media {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:50vh;
+    padding:2vh;
+}
+.postImage {
+    width:50vh;
+    height:50vh;
+    border-radius: 8vh;
+    margin:3vh;
+}
+
+a {
+    text-decoration: none;
+    color:black;
+}
+.title {
+    font-family: Sail;
+    font-size:7vh;
+}
